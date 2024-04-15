@@ -1,0 +1,137 @@
+*{
+    padding: 0px;
+    box-sizing: border-box;
+    margin: 0px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+body{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    background-color: #101720;
+}
+.content{
+    background: linear-gradient(135deg, rgb(179, 208, 253) 0%, rgb(164, 202, 248) 100%);
+    height: fit-content;
+    width: 500px;
+}
+.header{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+.container {
+    position: relative;
+    background: linear-gradient(135deg, rgb(179, 208, 253) 0%, rgb(164, 202, 248) 100%);
+    border-radius: 100px;
+    padding: 10px;
+    display: grid;
+    place-content: center;
+    z-index: 0;
+    max-width: 300px;
+    margin: 0 10px;
+  }
+  
+  .search-container {
+    width: 350PX;
+    border-radius: 50px;
+    background: linear-gradient(135deg, rgb(218, 232, 247) 0%, rgb(214, 229, 247) 100%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 40px;
+
+  }
+  .input {
+    padding: 10px;
+    width: 60%;
+    background: linear-gradient(135deg, rgb(218, 232, 247) 0%, rgb(214, 229, 247) 100%);
+    border: none;
+    color: #9EBCD9;
+    font-size: 13px;
+    border-radius: 50px;
+    height: 15px;
+  }
+  
+  .input:focus {
+    outline: none;
+    background: linear-gradient(135deg, rgb(239, 247, 255) 0%, rgb(214, 229, 247) 100%);
+  }
+  
+  .search__icon {
+    width: 50px;
+    aspect-ratio: 1;
+    border-left: 2px solid white;
+    border-top: 3px solid transparent;
+    border-bottom: 3px solid transparent;
+    border-radius: 50%;
+    padding-left: 12px;
+    margin-right: 10px;
+  }
+  
+  .search__icon:hover {
+    border-left: 4px solid white;
+  }
+  .info{
+    display: flex;
+    gap: 50px;
+    color: white;
+    justify-content: center;
+    align-items: center;
+  }
+  .wimg{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+  }
+  .mimg{
+    width: 200px;
+    height: auto;
+  }
+  .cityinfo{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    color: white;
+    flex-direction: column;
+  }
+  .temp{
+display: flex;
+  }
+  .wind{
+display: flex;
+  }
+  .humidity{
+display: flex;
+  }
+.windicon{
+    width: 80px;
+    height: 90px;
+}
+.tempicon{
+    width: 50px;
+}
+.details{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.data{
+    display: flex;
+    flex-direction: column;
+}
+h5{
+    font-size: 25px;
+}
+.wdata{
+    padding-top: 25px;
+    font-size: 10px;
+}
+.tdata{
+    padding-top: 8px;
+    font-size: 10px;
+}
+.hicon{
+    height: 60px;
+}
